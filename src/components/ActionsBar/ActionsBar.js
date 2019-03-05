@@ -143,7 +143,7 @@ class ActionsBar extends React.Component {
             onClick={this.searchOnClick}
             component={Link}
             data-shape="closed"
-            to="/search/"
+            to="/ara/"
             title="Ara"
             className={classes.button}
           >

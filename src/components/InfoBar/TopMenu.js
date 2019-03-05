@@ -1,12 +1,12 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 import { Link } from "gatsby";
-import injectSheet from 'react-jss';
-import Menu from '@material-ui/core/Menu';
-import MenuItem from '@material-ui/core/MenuItem';
-import IconButton from '@material-ui/core/IconButton';
-import MoreVertIcon from '@material-ui/icons/MoreVert';
-import classNames from 'classnames';
+import injectSheet from "react-jss";
+import Menu from "@material-ui/core/Menu";
+import MenuItem from "@material-ui/core/MenuItem";
+import IconButton from "@material-ui/core/IconButton";
+import MoreVertIcon from "@material-ui/icons/MoreVert";
+import classNames from "classnames";
 
 const styles = theme => ({
   topMenu: {
@@ -72,7 +72,7 @@ class TopMenu extends React.Component {
                 this.handleClose();
               }}
             >
-              Home
+              Anasayfa
             </MenuItem>
             {pages.map((page, i) => {
               const { fields, frontmatter } = page.node;
@@ -90,14 +90,14 @@ class TopMenu extends React.Component {
                 </Link>
               );
             })}
-            <Link to="/contact/" style={{ display: "block" }}>
+            <Link to="/banaulas/" style={{ display: "block" }}>
               <MenuItem
                 onClick={e => {
                   this.props.pageLinkOnClick(e);
                   this.handleClose();
                 }}
               >
-                Contact
+                Bana ulaş
               </MenuItem>
             </Link>
           </Menu>

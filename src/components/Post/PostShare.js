@@ -57,7 +57,7 @@ class PostShare extends React.Component {
 
     return (
       <div className={classes.share}>
-        <span className={classes.label}>SHARE</span>
+        <span className={classes.label}>PAYLAŞ</span>
         <div className={classes.links}>
           <TwitterShareButton url={url} title={title}>
             <TwitterIcon round size={iconSize} />

@@ -18,7 +18,7 @@ const styles = theme => ({
     letterSpacing: "-0.04em",
     fontWeight: theme.main.fonts.title.weight,
     lineHeight: theme.main.fonts.title.lineHeight,
-    margin: "0 0 0.4em",
+    margin: "0 0 0.4em 0.3em",
     [`@media (min-width: ${theme.mediaQueryTresholds.M}px)`]: {
       fontSize: `${theme.main.fonts.title.sizeM}em`
     },
@@ -35,7 +35,7 @@ const styles = theme => ({
       width: "170px"
     },
     [`@media (min-width: ${theme.mediaQueryTresholds.L}px)`]: {
-      width: "190px"
+      width: "200px"
     }
   }
 });
@@ -45,7 +45,6 @@ const Header = props => {
 
   return (
     <header className={classes.header}>
-      <h1 className={classes.title}>{title}</h1>
       {algolia && (
         <a
           className={classes.mark}
@@ -56,6 +55,7 @@ const Header = props => {
           <AlgoliaIcon />
         </a>
       )}
+      <h1 className={classes.title}>{title}</h1>
     </header>
   );
 };

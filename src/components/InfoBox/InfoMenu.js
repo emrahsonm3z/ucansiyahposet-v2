@@ -42,7 +42,7 @@ const InfoMenu = props => {
           </Link>
         );
       })}
-      <Link to="/contact/" onClick={linkOnClick} className={classes.link} data-shape="closed">
+      <Link to="/banaulas/" onClick={linkOnClick} className={classes.link} data-shape="closed">
         bana ulaş
       </Link>
     </nav>

@@ -16,7 +16,7 @@ export default function asyncComponent(getComponent, loadingComponent) {
       if (Component) {
         return <Component {...this.props} />;
       }
-      return loadingComponent ? loadingComponent : <div>Loading...</div>;
+      return loadingComponent ? loadingComponent : <div>Yükleniyor...</div>;
     }
   }
   return AsyncComponent;

@@ -121,10 +121,10 @@ const InfoHeader = props => {
         <small>{config.infoTitleNote}</small>
       </h1>
       <IconButton
-        aria-label="Expand the box"
+        aria-label="Kutuyu genişlet"
         className={classes.expand}
         onClick={expandOnClick}
-        title="Expand the box"
+        title="Kutuyu genişlet"
       >
         <ExpandMoreIcon />
       </IconButton>
