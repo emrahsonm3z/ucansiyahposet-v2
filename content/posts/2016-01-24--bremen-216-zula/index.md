@@ -27,4 +27,6 @@ Hi.ç <br />
 
 ![unsplash.com](./Newtown-Johannesburg.jpg)
 
-> Newtown, Johannesburg, South Africa [@picsbylikesoda](https://unsplash.com/photos/llsCAW1nj2A)
+> Newtown, Johannesburg, South Africa <br />
+> Graffiti from Newtown Johannesburg tour in 2013. Love Jozi. Proudly South African.<br />
+> Photo by Clodagh Da Paixao on Unsplash [@picsbylikesoda](https://unsplash.com/photos/llsCAW1nj2A)
