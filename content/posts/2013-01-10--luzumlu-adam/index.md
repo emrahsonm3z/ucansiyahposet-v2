@@ -1,7 +1,7 @@
 ---
 title: Lüzumlu adam
-category: "Şiir"
-cover: Newtown-Johannesburg-cover.jpg
+category: "Yazı"
+cover: deneme2.jpg
 ---
 
 Lüzumu kalmadığını düşünür,<br/>
@@ -32,4 +32,5 @@ Bir yerin herkesi vardır bir anlasan!<br/>
 Yoksan, hayat noksan.<br/>
 
 Bir kar tatili perşembesi.<br/>
-Saklamaya ne hacet.<br/>
+
+![unsplash.com](./deneme1.jpg)
