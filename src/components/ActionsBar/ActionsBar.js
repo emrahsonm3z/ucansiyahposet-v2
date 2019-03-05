@@ -128,9 +128,9 @@ class ActionsBar extends React.Component {
       <div className={classes.actionsBar}>
         <div className={classes.group}>
           <IconButton
-            aria-label="Back to list"
+            aria-label="Listeye geri dön"
             onClick={this.homeOnClick}
-            title="Back to the list"
+            title="Listeye geri dön"
             className={classes.button}
           >
             <HomeIcon />
@@ -139,12 +139,12 @@ class ActionsBar extends React.Component {
             <CategoryFilter categories={categories} filterCategory={this.categoryFilterOnClick} />
           )}
           <IconButton
-            aria-label="Search"
+            aria-label="Ara"
             onClick={this.searchOnClick}
             component={Link}
             data-shape="closed"
             to="/search/"
-            title="Search"
+            title="Ara"
             className={classes.button}
           >
             <SearchIcon className={classes.button} />
@@ -154,15 +154,15 @@ class ActionsBar extends React.Component {
           {navigatorPosition === "is-aside" && <FontSetter increaseFont={this.fontSetterOnClick} />}
           {screenfull.enabled && (
             <IconButton
-              aria-label="Fullscreen"
+              aria-label="Tam ekran"
               onClick={this.fullscreenOnClick}
-              title="Fullscreen mode"
+              title="Tam ekran modu"
               className={classes.button}
             >
               {this.state.fullscreen ? <FullscreenExitIcon /> : <FullscreenIcon />}
             </IconButton>
           )}
-          <IconButton aria-label="Back to top" onClick={this.arrowUpOnClick} title="Scroll to top">
+          <IconButton aria-label="Başa dön" onClick={this.arrowUpOnClick} title="Yukarı kaydır">
             <ArrowUpwardIcon className={classes.button} />
           </IconButton>
         </div>

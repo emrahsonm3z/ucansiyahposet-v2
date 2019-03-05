@@ -54,11 +54,11 @@ class CategoryFilter extends React.Component {
       <nav className={classes.fontSizeSetter}>
         <div>
           <IconButton
-            aria-label="Filter by category"
-            aria-owns={anchorEl ? 'cat-menu-list' : undefined}
+            aria-label="Kategoriye göre filtrele"
+            aria-owns={anchorEl ? "cat-menu-list" : undefined}
             aria-haspopup="true"
             onClick={this.handleClick}
-            title="Filter the list by category"
+            title="Listeyi kategoriye göre filtrele"
             className={classes.open}
             role="menu"
           >
@@ -70,7 +70,9 @@ class CategoryFilter extends React.Component {
             open={Boolean(anchorEl)}
             onClose={this.handleClose}
           >
-            <MenuItem key="all" onClick={this.handleFiltering}>all posts</MenuItem>
+            <MenuItem key="all" onClick={this.handleFiltering}>
+              Tüm paylaşımlar
+            </MenuItem>
             {categories.map(category => (
               <MenuItem key={category} onClick={this.handleFiltering}>
                 {category}

@@ -84,31 +84,30 @@ const ListHeader = props => {
     <header>
       {navigatorShape === "closed" && (
         <div className={classes.closed}>
-          <h3>List of posts</h3>
+          <h3>Paylaşımlar</h3>
           <IconButton
-            aria-label="Expand the list"
+            aria-label="Listeyi genişlet"
             className={classes.expand}
             onClick={expandOnClick}
-            title="Expand the list"
+            title="Listeyi genişlet"
           >
             <ExpandLessIcon />
           </IconButton>
         </div>
       )}
-      {navigatorShape === "open" &&
-        categoryFilter !== "all posts" && (
-          <div className={classes.filter}>
-            <small>Active category filter:</small> <strong>{categoryFilter}</strong>
-            <IconButton
-              aria-label="Remove filtering"
-              className={classes.clear}
-              onClick={removeFilter}
-              title="Clear filtering"
-            >
-              <CloseIcon />
-            </IconButton>
-          </div>
-        )}
+      {navigatorShape === "open" && categoryFilter !== "all posts" && (
+        <div className={classes.filter}>
+          <small>Aktif kategori filtresi:</small> <strong>{categoryFilter}</strong>
+          <IconButton
+            aria-label="Filtrelemeyi kaldır"
+            className={classes.clear}
+            onClick={removeFilter}
+            title="Filtrelemeyi temizle"
+          >
+            <CloseIcon />
+          </IconButton>
+        </div>
+      )}
     </header>
   );
 };

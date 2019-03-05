@@ -2,4 +2,4 @@
 title: info
 ---
 
-I am a front-end web developer. I used to be a web designer too, but now I concentrate on the code.
+“Gizli şiir sayısı, gizli işsiz sayısından aşağı değildir. Birçok şiirler, varlıklarını duyuramaz, kendilerine bir elin uzanmayışına sessizce katlanırlar.” Behçet Necatigil

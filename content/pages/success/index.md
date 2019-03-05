@@ -1,5 +1,5 @@
 ---
-title: Success
+title: Başarılı
 ---
 
-Thank you. I will answer to the message as soon as possible.
+Teşekkür ederim. Mesajına en kısa sürede cevap vereceğim.

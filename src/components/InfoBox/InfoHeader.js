@@ -88,7 +88,7 @@ const styles = theme => ({
       transform: "translate(-50%)",
       transition: "all .5s",
       ".is-aside.open &": {
-        left: "60%",
+        left: "68%",
         top: `${1.9 - theme.info.fonts.boxTitleSizeL}em`,
         textAlign: "left"
       }
@@ -111,7 +111,7 @@ const InfoHeader = props => {
 
   return (
     <header className={classes.header}>
-      <Link className={classes.avatarLink} onClick={avatarOnClick} to="/" title="back to Home page">
+      <Link className={classes.avatarLink} onClick={avatarOnClick} to="/" title="Anasayfaya dön">
         <div className={classes.avatar}>
           <img src={avatar} alt="" />
         </div>
