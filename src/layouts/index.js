@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import { connect } from "react-redux";
 import injectSheet from "react-jss";
-import { MuiThemeProvider } from "@material-ui/core/styles";
+// import { MuiThemeProvider } from "@material-ui/core/styles";
 
-import asyncComponent from "../components/common/AsyncComponent/";
-import Loading from "../components/common/Loading/";
+// import asyncComponent from "../components/common/AsyncComponent/";
+// import Loading from "../components/common/Loading/";
 import Navigator from "../components/Navigator/";
 import ActionsBar from "../components/ActionsBar/";
 import InfoBar from "../components/InfoBar/";
@@ -17,7 +17,7 @@ import { setFontSizeIncrease, setIsWideScreen } from "../state/store";
 import { isWideScreen, timeoutThrottlerHandler } from "../utils/helpers";
 
 import withRoot from "../withRoot";
-import theme from "../styles/theme";
+// import theme from "../styles/theme";
 import globals from "../styles/globals";
 
 import "typeface-open-sans";
@@ -96,7 +96,7 @@ const ConnectedLayout = connect(
   mapDispatchToProps
 )(withRoot(injectSheet(globals)(Layout)));
 
-export default props => (
+const LayoutQuery = props => (
   <StaticQuery
     query={graphql`
       query {
@@ -160,3 +160,5 @@ export default props => (
     render={data => <ConnectedLayout {...props} data={data} />}
   />
 );
+
+export default LayoutQuery;

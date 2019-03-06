@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: "Uçan siyah poşet", // <title>
   shortSiteTitle: "Uçan siyah poşet", // <title> ending for posts and pages
   siteDescription: "Kişisel blog - Edebiyat",
-  siteUrl: "https://gatsby-starter-personal-blog.greglobinski.com",
+  siteUrl: "https://vigorous-franklin-716bfa.netlify.com",
   pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "tr",
