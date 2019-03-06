@@ -1,14 +1,90 @@
 import theme from "./theme";
+// import { jss } from "react-jss";
+// import JMHThineot from "./font/JMHTypewriter-Thin/fonts/JMHTypewriter-Thin.eot";
+// import JMHThinotf from "./font/JMHTypewriter-Thin/fonts/JMHTypewriter-Thin.otf";
+// import JMHThinsvg from "./font/JMHTypewriter-Thin/fonts/JMHTypewriter-Thin.svg";
+// import JMHThinttf from "./font/JMHTypewriter-Thin/fonts/JMHTypewriter-Thin.ttf";
+// import JMHThinwoff from "./font/JMHTypewriter-Thin/fonts/JMHTypewriter-Thin.woff";
+// import JMHThinwoff2 from "./font/JMHTypewriter-Thin/fonts/JMHTypewriter-Thin.woff2";
+
+// jss
+//   .createStyleSheet({
+//     "@font-face": {
+//       fontFamily: "JMHTypewriter-Thin",
+//       fontWeight: "normal",
+//       fontStyle: "normal",
+//       src: `url(${JMHThineot})
+//       url(${JMHThineot}?#iefix") format("embedded-opentype"),
+//       url(${JMHThinotf}) format("opentype"),
+//       url(${JMHThinsvg}) format("svg"),
+//       url(${JMHThinttf}) format("truetype"),
+//       url(${JMHThinwoff}) format("woff"),
+//       url(${JMHThinwoff2}) format("woff2")`
+//     }
+//   })
+//   .attach();
+
+// jss
+//   .createStyleSheet({
+//     "@global html, body": {
+//       fontFamily: "JMHTypewriter-Thin"
+//     }
+//   })
+//   .attach();
+
+// jss
+// .createStyleSheet({
+//   "@font-face": {
+//     fontFamily: "JMHTypewriter-Thin",
+//     fontWeight: "normal",
+//     fontStyle: "normal",
+//     src: `url("./font/JMHTypewriter-Thin/fonts/JMHTypewriter-Thin.eot") format("woff")
+//     url("./font/JMHTypewriter-Thin/fonts/JMHTypewriter-Thin.eot?#iefix") format("embedded-opentype"),
+//     url("./font/JMHTypewriter-Thin/fonts/JMHTypewriter-Thin.otf") format("opentype"),
+//     url("./font/JMHTypewriter-Thin/fonts/JMHTypewriter-Thin.svg") format("svg"),
+//     url("./font/JMHTypewriter-Thin/fonts/JMHTypewriter-Thin.ttf") format("truetype"),
+//     url("./font/JMHTypewriter-Thin/fonts/JMHTypewriter-Thin.woff") format("woff"),
+//     url("./font/JMHTypewriter-Thin/fonts/JMHTypewriter-Thin.woff2") format("woff2")`
+//   }
+// })
+// .attach();
 
 export default {
   /*
       BEGINNING OF NORMALIZE STYLE
     */
-
+  "@font-face": {
+    fontFamily: "JMHTypewriter-Thin",
+    fontWeight: "normal",
+    fontStyle: "normal",
+    src: "url(./font/JMHTypewriter-Thin/fonts/JMHTypewriter-Thin.eot)",
+    fallbacks: [
+      {
+        src:
+          'url(./font/JMHTypewriter-Thin/fonts/JMHTypewriter-Thin.eot?#iefix) format("embedded-opentype")'
+      },
+      {
+        src: 'url(./font/JMHTypewriter-Thin/fonts/JMHTypewriter-Thin.otf) format("opentype")'
+      },
+      {
+        src: 'url(./font/JMHTypewriter-Thin/fonts/JMHTypewriter-Thin.svg) format("svg")'
+      },
+      {
+        src: 'url(./font/JMHTypewriter-Thin/fonts/JMHTypewriter-Thin.ttf) format("truetype")'
+      },
+      {
+        src: 'url(./font/JMHTypewriter-Thin/fonts/JMHTypewriter-Thin.woff) format("woff")'
+      },
+      {
+        src: 'url(./font/JMHTypewriter-Thin/fonts/JMHTypewriter-Thin.woff2) format("woff2")'
+      }
+    ]
+  },
   "@global": {
     /**
      * Add the correct display in IE9
      */
+
     "article, aside, footer, header, nav, section, figcaption, figure, main": {
       display: "block"
     },

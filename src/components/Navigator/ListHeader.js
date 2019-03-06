@@ -95,7 +95,7 @@ const ListHeader = props => {
           </IconButton>
         </div>
       )}
-      {navigatorShape === "open" && categoryFilter !== "all posts" && (
+      {navigatorShape === "open" && categoryFilter !== "Tüm paylaşımlar" && (
         <div className={classes.filter}>
           <small>Aktif kategori filtresi:</small> <strong>{categoryFilter}</strong>
           <IconButton

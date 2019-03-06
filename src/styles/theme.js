@@ -18,7 +18,8 @@ const theme = createMuiTheme({
       linesMargin: "20px"
     },
     fonts: {
-      styledFamily: "Open Sans",
+      // styledFamily: "Open Sans",
+      styledFamily: "JMHTypewriter-Thin",
       styledFonts: "300,400,600"
     }
   },

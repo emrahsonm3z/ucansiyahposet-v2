@@ -5,7 +5,7 @@ import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import IconButton from "@material-ui/core/IconButton";
 import FilterListIcon from "@material-ui/icons/FilterList";
-import classNames from "classnames";
+// import classNames from "classnames";
 
 const styles = theme => ({
   fontSizeSetter: {

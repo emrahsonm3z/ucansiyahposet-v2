@@ -104,7 +104,7 @@ const initialState = {
   isWideScreen: false,
   scrollToTop: false,
   fontSizeIncrease: 1,
-  categoryFilter: "all posts"
+  categoryFilter: "Tüm paylaşımlar"
 };
 
 const createStore = () =>

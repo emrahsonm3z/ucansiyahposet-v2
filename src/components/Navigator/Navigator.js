@@ -108,7 +108,7 @@ class Navigator extends React.Component {
   };
 
   removefilterOnClick = e => {
-    this.props.setCategoryFilter("all posts");
+    this.props.setCategoryFilter("Tüm paylaşımlar");
   };
 
   render() {
