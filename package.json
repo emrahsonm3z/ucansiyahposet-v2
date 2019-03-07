@@ -14,6 +14,7 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "lint-errors": "eslint src/**/*.{js,jsx} --quiet",
     "lint": "eslint src/**/*.{js,jsx}",
+    "lint-fix": "eslint --fix src/**/*.{js,jsx} gatsby-browser.js gatsby-config.js gatsby-node.js gatsby-ssr.js",
     "generate-app-icons": "sh ./scripts/generate-app-icons.sh"
   },
   "devDependencies": {
