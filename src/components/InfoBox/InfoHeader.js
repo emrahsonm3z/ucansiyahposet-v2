@@ -80,7 +80,7 @@ const styles = theme => ({
       fontSize: `${theme.info.fonts.boxTitleSizeM}em`
     },
     [`@media (min-width: ${theme.mediaQueryTresholds.L}px)`]: {
-      fontSize: `${theme.info.fonts.boxTitleSizeL}em`,
+      fontSize: `${theme.info.fonts.boxTitleSizeM}em`,
       position: "absolute",
       top: "85px",
       textAlign: "center",
