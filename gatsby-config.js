@@ -103,7 +103,23 @@ module.exports = {
           },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`
+          `gatsby-remark-smartypants`,
+          {
+            resolve: "gatsby-remark-embed-spotify",
+            options: {
+              width: "90%", // default is "100%"
+              height: 400 // default is 400
+            }
+          },
+          {
+            resolve: "gatsby-remark-embed-soundcloud",
+            options: {
+              width: "90%", // default is "100%"
+              height: "350", // default is 300
+              color: "#f39200", // default is #ff5500
+              autoplay: false // default is false
+            }
+          }
         ]
       }
     },
