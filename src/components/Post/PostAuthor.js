@@ -24,10 +24,10 @@ const styles = theme => ({
   },
   avatar: {
     margin: "0 1em 1em",
-    borderRadius: "75% 65%",
+    // borderRadius: "75% 65%",
     width: "60px",
     height: "60px",
-    border: "1px solid #ddd",
+    // border: "1px solid #ddd",
     flexShrink: 0,
     [`@media (min-width: ${theme.mediaQueryTresholds.M}px)`]: {
       margin: "0 1em 0"
