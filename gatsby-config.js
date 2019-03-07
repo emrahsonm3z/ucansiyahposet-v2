@@ -244,6 +244,19 @@ module.exports = {
       options: {
         include: /svg-icons/
       }
+    },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["JMHTypewriter-Thin"],
+          urls: ["/font/JMHTypewriter-Thin/style.css"]
+        },
+        timeout: 2000,
+        active: function() {
+          sessionStorage.fonts = true;
+        }
+      }
     }
   ]
 };

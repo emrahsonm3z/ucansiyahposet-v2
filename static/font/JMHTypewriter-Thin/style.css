@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "JMHTypewriter-Thin";
+  src: url("./JMHTypewriter-Thin.eot"); /* IE9 Compat Modes */
+  src: url("./JMHTypewriter-Thin.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./JMHTypewriter-Thin.otf") format("opentype"),
+    /* Open Type Font */ url("./JMHTypewriter-Thin.svg") format("svg"),
+    /* Legacy iOS */ url("./JMHTypewriter-Thin.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("./JMHTypewriter-Thin.woff") format("woff"),
+    /* Modern Browsers */ url("./JMHTypewriter-Thin.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
