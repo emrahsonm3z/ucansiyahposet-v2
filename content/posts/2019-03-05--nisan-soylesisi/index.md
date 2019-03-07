@@ -1,6 +1,6 @@
 ---
 title: Nisan söy(v)leşisi
-category: "Şiir"
+category: "Poetika"
 cover: Newtown-Johannesburg-cover.jpg
 ---
 

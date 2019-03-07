@@ -1,6 +1,6 @@
 ---
 title: Katil Kara Bulut
-category: "Şiir"
+category: "Poetika"
 cover: Newtown-Johannesburg-cover.jpg
 ---
 

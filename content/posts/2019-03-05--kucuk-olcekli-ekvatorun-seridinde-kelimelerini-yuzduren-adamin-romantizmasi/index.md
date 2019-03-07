@@ -1,6 +1,6 @@
 ---
 title: Küçük ölçekli ekvatorun şeridinde kelimelerini yüzdüren adamın romantizması
-category: "Şiir"
+category: "Poetika"
 cover: Newtown-Johannesburg-cover.jpg
 ---
 

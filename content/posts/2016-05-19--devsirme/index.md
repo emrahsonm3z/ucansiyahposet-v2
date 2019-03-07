@@ -1,6 +1,6 @@
 ---
 title: Devşirme
-category: "Şiir"
+category: "Poetika"
 cover: Newtown-Johannesburg-cover.jpg
 ---
 

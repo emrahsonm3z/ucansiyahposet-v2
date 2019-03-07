@@ -1,6 +1,6 @@
 ---
 title: Askıntı
-category: "Şiir"
+category: "Poetika"
 cover: Newtown-Johannesburg-cover.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Arpa Suyuna Istakoz Kızartması
-category: "Şiir"
+category: "Poetika"
 cover: Newtown-Johannesburg-cover.jpg
 ---
 

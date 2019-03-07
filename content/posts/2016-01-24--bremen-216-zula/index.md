@@ -1,7 +1,7 @@
 ---
 title: Bremen 216 -zula!
 subTitle: Alt başlık
-category: "Şiir"
+category: "Poetika"
 cover: Newtown-Johannesburg-cover.jpg
 ---
 

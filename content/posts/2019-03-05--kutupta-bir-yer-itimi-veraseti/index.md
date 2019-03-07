@@ -1,6 +1,6 @@
 ---
 title: Kutup’ta Bir Yer İtimi Veraseti
-category: "Şiir"
+category: "Poetika"
 cover: Newtown-Johannesburg-cover.jpg
 ---
 

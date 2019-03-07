@@ -1,6 +1,6 @@
 ---
 title: Temkinliler mahallesinin sohbet müdavimi aristokrat sofra bezi
-category: "Şiir"
+category: "Poetika"
 cover: Newtown-Johannesburg-cover.jpg
 ---
 

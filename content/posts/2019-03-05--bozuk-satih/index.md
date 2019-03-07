@@ -1,6 +1,6 @@
 ---
 title: Bozuk Satıh
-category: "Şiir"
+category: "Poetika"
 cover: Newtown-Johannesburg-cover.jpg
 ---
 

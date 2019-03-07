@@ -1,6 +1,6 @@
 ---
 title: Daha sonra yine
-category: "Şiir"
+category: "Poetika"
 cover: Newtown-Johannesburg-cover.jpg
 ---
 

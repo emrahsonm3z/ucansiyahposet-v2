@@ -1,6 +1,6 @@
 ---
 title: Lüzumlu adam
-category: "Yazı"
+category: "Mevzuat"
 cover: deneme2.jpg
 ---
 

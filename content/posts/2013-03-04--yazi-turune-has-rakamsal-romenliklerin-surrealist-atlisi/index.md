@@ -1,6 +1,6 @@
 ---
 title: Yazı Türüne Has Rakamsal Romenliklerin Sürrealist Atlısı
-category: "Şiir"
+category: "Poetika"
 cover: Newtown-Johannesburg-cover.jpg
 ---
 

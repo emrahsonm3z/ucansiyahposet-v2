@@ -1,6 +1,6 @@
 ---
 title: Aşırı Silindirik ve Meşru Dozer
-category: "Şiir"
+category: "Poetika"
 cover: Newtown-Johannesburg-cover.jpg
 ---
 

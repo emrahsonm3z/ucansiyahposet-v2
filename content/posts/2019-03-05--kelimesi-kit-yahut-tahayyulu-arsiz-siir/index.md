@@ -1,6 +1,6 @@
 ---
 title: Kelimesi kıt yahut tahayyülü arsız (şiir)
-category: "Şiir"
+category: "Poetika"
 cover: Newtown-Johannesburg-cover.jpg
 ---
 

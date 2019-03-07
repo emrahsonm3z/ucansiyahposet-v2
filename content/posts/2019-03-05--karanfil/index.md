@@ -1,6 +1,6 @@
 ---
 title: Karanfil
-category: "Şiir"
+category: "Poetika"
 cover: Newtown-Johannesburg-cover.jpg
 ---
 

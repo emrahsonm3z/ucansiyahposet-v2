@@ -1,6 +1,6 @@
 ---
 title: Sağ serbest
-category: "Şiir"
+category: "Poetika"
 cover: Newtown-Johannesburg-cover.jpg
 ---
 

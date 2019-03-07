@@ -1,6 +1,6 @@
 ---
 title: -Beyaz Taş Eve Çıkan Sokak-
-category: "Şiir"
+category: "Poetika"
 cover: Newtown-Johannesburg-cover.jpg
 ---
 

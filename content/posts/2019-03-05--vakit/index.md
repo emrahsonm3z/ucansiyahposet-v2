@@ -1,6 +1,6 @@
 ---
 title: Vakit
-category: "Şiir"
+category: "Poetika"
 cover: Newtown-Johannesburg-cover.jpg
 ---
 

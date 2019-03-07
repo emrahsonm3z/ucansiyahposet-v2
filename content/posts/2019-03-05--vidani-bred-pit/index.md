@@ -1,6 +1,6 @@
 ---
 title: Vicdani Bred Pit
-category: "Şiir"
+category: "Poetika"
 cover: Newtown-Johannesburg-cover.jpg
 ---
 
