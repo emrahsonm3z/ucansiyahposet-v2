@@ -21,7 +21,10 @@ function withRoot(Component) {
 
     render() {
       return (
-        <JssProvider generateClassName={this.muiPageContext.generateClassName}>
+        <JssProvider
+          registry={this.muiPageContext.sheetsRegistry}
+          generateClassName={this.muiPageContext.generateClassName}
+        >
           <MuiThemeProvider
             theme={this.muiPageContext.theme}
             sheetsManager={this.muiPageContext.sheetsManager}
