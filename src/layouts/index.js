@@ -16,7 +16,7 @@ import LayoutWrapper from "../components/LayoutWrapper/";
 import { setFontSizeIncrease, setIsWideScreen } from "../state/store";
 import { isWideScreen, timeoutThrottlerHandler } from "../utils/helpers";
 
-import withRoot from "../withRoot";
+// import withRoot from "../withRoot";
 // import theme from "../styles/theme";
 import globals from "../styles/globals";
 
@@ -94,7 +94,7 @@ const mapDispatchToProps = {
 const ConnectedLayout = connect(
   mapStateToProps,
   mapDispatchToProps
-)(withRoot(injectSheet(globals)(Layout)));
+)(injectSheet(globals)(Layout));
 
 const LayoutQuery = props => (
   <StaticQuery
