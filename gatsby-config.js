@@ -47,6 +47,12 @@ module.exports = {
   plugins: [
     //`gatsby-plugin-jss`,
     {
+      resolve: `gatsby-plugin-material-ui`,
+      options: {
+        // Add any options here
+      }
+    },
+    {
       resolve: `gatsby-plugin-layout`,
       options: {
         component: require.resolve(`./src/layouts/`)

@@ -14,7 +14,7 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "lint-errors": "eslint src/**/*.{js,jsx} --quiet",
     "lint": "eslint src/**/*.{js,jsx}",
-    "lint-fix": "eslint --fix src/**/*.{js,jsx} gatsby-browser.js gatsby-config.js gatsby-node.js gatsby-ssr.js",
+    "lint-fix": "eslint --fix src/withRoot.js src/**/*.{js,jsx} gatsby-browser.js gatsby-config.js gatsby-node.js gatsby-ssr.js",
     "generate-app-icons": "sh ./scripts/generate-app-icons.sh"
   },
   "devDependencies": {
@@ -29,7 +29,7 @@
     "eslint-plugin-graphql": "^3.0.1",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.11.1",
     "prettier": "^1.15.3",
     "sharp-cli": "^1.7.2",
@@ -48,6 +48,7 @@
     "gatsby-plugin-jss": "^2.0.5",
     "gatsby-plugin-layout": "^1.0.11",
     "gatsby-plugin-manifest": "^2.0.12",
+    "gatsby-plugin-material-ui": "^1.2.4",
     "gatsby-plugin-netlify": "^2.0.6",
     "gatsby-plugin-offline": "^2.0.20",
     "gatsby-plugin-react-helmet": "^3.0.5",
