@@ -41,11 +41,20 @@ exports.createPages = ({ graphql, actions }) => {
   return new Promise((resolve, reject) => {
     const postTemplate = path.resolve("./src/templates/PostTemplate.js");
     const pageTemplate = path.resolve("./src/templates/PageTemplate.js");
+    let activeEnv = process.env.ACTIVE_ENV || process.env.NODE_ENV || "development";
+    console.log(`Using environment config: '${activeEnv}'`);
+    let filters = `filter: { fields: { slug: { ne: null } } }`;
+    if (activeEnv == "production")
+      filters = `filter: { fields: { slug: { ne: null } , prefix: { ne: null } } }`;
     resolve(
-      graphql(`
+      graphql(
+        `
         {
           allMarkdownRemark(
-            filter: { fileAbsolutePath: { regex: "//posts|pages//" } }
+            ` +
+          filters +
+          `
+            sort: { fields: [fields___prefix], order: DESC }
             limit: 1000
           ) {
             edges {
@@ -59,7 +68,8 @@ exports.createPages = ({ graphql, actions }) => {
             }
           }
         }
-      `).then(result => {
+      `
+      ).then(result => {
         if (result.errors) {
           console.log(result.errors);
           reject(result.errors);
