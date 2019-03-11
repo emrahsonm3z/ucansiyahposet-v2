@@ -26,3 +26,5 @@ https://soundcloud.com/gareteliot/beacons
 Coastline Paradox playlist!
 
 https://soundcloud.com/gareteliot/sets/coastline-paradox
+
+<iframe width="90%" height="315" src="https://www.youtube.com/embed/VVawtq3Ubkk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

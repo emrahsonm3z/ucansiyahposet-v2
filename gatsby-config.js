@@ -1,8 +1,28 @@
 require("dotenv").config();
 const config = require("./content/meta/config");
 
+// const query = `{
+//   allMarkdownRemark(filter: { fileAbsolutePath: { regex: "//posts|pages//" } }) {
+//     edges {
+//       node {
+//         objectID: id
+//         fields {
+//           slug
+//         }
+//         internal {
+//           content
+//         }
+//         frontmatter {
+//           title
+//           subTitle
+//         }
+//       }
+//     }
+//   }
+// }`;
+
 const query = `{
-  allMarkdownRemark(filter: { fileAbsolutePath: { regex: "//posts|pages//" } }) {
+  allMarkdownRemark( filter: { fields: { slug: { ne: null } } }) {
     edges {
       node {
         objectID: id
@@ -14,7 +34,6 @@ const query = `{
         }
         frontmatter {
           title
-          subTitle
         }
       }
     }
@@ -66,6 +85,13 @@ module.exports = {
         indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : "",
         queries,
         chunkSize: 10000 // default: 1000
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`
       }
     },
     {

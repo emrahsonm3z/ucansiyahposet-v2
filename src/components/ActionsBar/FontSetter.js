@@ -55,7 +55,7 @@ class FontSetter extends React.Component {
       <nav className={classes.fontSizeSetter}>
         <div>
           <IconButton
-            aria-label="Yazı tipi boyutunu artır"
+            aria-label="Yazı tipi boyutunu arttır"
             aria-owns={anchorEl ? "font-setter" : undefined}
             aria-haspopup="true"
             onClick={this.handleClick}
