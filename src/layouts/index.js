@@ -45,7 +45,13 @@ class Layout extends React.Component {
   }
 
   getCategories = () => {
-    this.categories = this.props.data.posts.edges.reduce((list, edge, i) => {
+    const {
+      data: {
+        posts: { edges }
+      }
+    } = this.props;
+
+    this.categories = edges.reduce((list, edge, i) => {
       const category = edge.node.frontmatter.category;
       if (category && !~list.indexOf(category)) {
         return list.concat(edge.node.frontmatter.category);
@@ -77,6 +83,15 @@ class Layout extends React.Component {
     );
   }
 }
+
+Layout.propTypes = {
+  children: PropTypes.object.isRequired,
+  data: PropTypes.object.isRequired,
+  setIsWideScreen: PropTypes.func.isRequired,
+  setFontSizeIncrease: PropTypes.func.isRequired,
+  fontSizeIncrease: PropTypes.number.isRequired,
+  isWideScreen: PropTypes.bool.isRequired
+};
 
 const mapStateToProps = (state, ownProps) => {
   return {
