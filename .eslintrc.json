@@ -37,7 +37,7 @@
     "no-param-reassign": "warn",
     "no-plusplus": "off",
     "no-shadow": "warn",
-    "no-underscore-dangle": "warn",
+    "no-underscore-dangle": "off",
     "no-unused-expressions": ["error", { "allowShortCircuit": true, "allowTernary": true }],
     "no-nested-ternary": "off",
     "no-unused-vars": "warn",
