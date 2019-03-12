@@ -305,6 +305,14 @@ module.exports = {
           sessionStorage.fonts = true;
         }
       }
+    },
+    {
+      resolve: `gatsby-plugin-netlify`,
+      options: {
+        headers: {
+          "/*.js": ["Cache-Control: public, max-age=0, must-revalidate"]
+        }
+      }
     }
   ]
 };
