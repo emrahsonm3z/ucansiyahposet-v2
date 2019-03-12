@@ -36,12 +36,12 @@ function getPageContext() {
 }
 
 const wrapRootElement = element => {
-  context = getPageContext();
+  context = getPageContext(); 
   const { theme, sheetsManager, sheetsRegistry, generateClassName } = context;
   return (
     <JssProvider generateClassName={generateClassName} registry={sheetsRegistry}>
       <MuiThemeProvider theme={theme} sheetsManager={sheetsManager}>
-        <CssBaseline />
+        <CssBaseline />  
         {element}
       </MuiThemeProvider>
     </JssProvider>
