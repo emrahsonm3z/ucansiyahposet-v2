@@ -1,3 +1,3 @@
 User-agent: *
 
-sitemap: https://vigorous-franklin-716bfa.netlify.com/sitemap.xml
+sitemap: https://ucansiyahposet.netlify.com/sitemap.xml
